@@ -45,7 +45,9 @@ new NightMode(
   document.querySelector('#mode'),
   async (mode) => {
     editor.setTheme(mode);
+    
     // Save the night mode setting when changed
+
   },
   // Retrieve the night mode setting on initialization
 );
